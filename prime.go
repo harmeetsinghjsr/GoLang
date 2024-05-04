@@ -21,8 +21,9 @@ func isPrime(n int) bool {
 }
 
 func main() {
-	num := 17 // Change this to the number you want to check
-
+	var num int
+	fmt.Print("Enter a number: ")
+	fmt.Scan(&num)
 	if isPrime(num) {
 		fmt.Printf("%d is a prime number\n", num)
 	} else {
