@@ -2,14 +2,14 @@ package main
 import ("fmt")
 
 func main() {
-  myslice1 := make([]int, 5, 10)
-  fmt.Printf("myslice1 = %v\n", myslice1)
-  fmt.Printf("length = %d\n", len(myslice1))
-  fmt.Printf("capacity = %d\n", cap(myslice1))
+  sl := make([]int, 5, 10)
+  fmt.Printf("sl = %v\n", sl)
+  fmt.Printf("length = %d\n", len(sl))
+  fmt.Printf("capacity = %d\n", cap(sl))
 
   // with omitted capacity
-  myslice2 := make([]int, 5)
-  fmt.Printf("myslice2 = %v\n", myslice2)
-  fmt.Printf("length = %d\n", len(myslice2))
-  fmt.Printf("capacity = %d\n", cap(myslice2))
+  sl12 := make([]int, 5)
+  fmt.Printf("sl12 = %v\n", sl12)
+  fmt.Printf("length = %d\n", len(sl12))
+  fmt.Printf("capacity = %d\n", cap(sl12))
 }
