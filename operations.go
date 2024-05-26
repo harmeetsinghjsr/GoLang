@@ -1,18 +1,15 @@
 package main
-import ("fmt")
+import "fmt"
 
 func main() {
-	// input from user
   var a int
   var b int
-  
+  fmt.Print("Enter two numbers: ")
+  fmt.Scan(&a)
+  fmt.Scan(&b)
   fmt.Println(a+b)
   fmt.Println(a-b)
   fmt.Println(a*b)
   fmt.Println(a/b)
   fmt.Println(a%b)
-  fmt.Println(a)
 }
-
-
-
