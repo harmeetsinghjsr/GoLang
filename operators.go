@@ -37,5 +37,4 @@ func main() {
 	fmt.Println(a < b)   // Less than
 	fmt.Println(a >= b)  // Greater than or equal to
 	fmt.Println(a <= b)  // Less than or equal to
-	
 }
