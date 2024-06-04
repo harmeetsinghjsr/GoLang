@@ -19,4 +19,18 @@ func main() {
 	default:
 		fmt.Println("Invalid command!")
 	}
+	var a int
+	fmt.Print("Enter a number: ")
+	fmt.Scanln(&a)
+	switch a {
+	case 1:
+		fmt.Println("a is equal to 1")
+	case 2:
+		fmt.Println("a is equal to 2")
+	case 3:
+		fmt.Println("a is equal to 3")
+	default:
+		fmt.Println("a is not equal to 1, 2, or 3")
+
+}
 }
