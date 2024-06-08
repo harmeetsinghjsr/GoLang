@@ -6,7 +6,7 @@ func sum(a int, b int){
 func main() {
 	fmt.Println("Enter 2 numbers to add:")
 	var a, b int
-	fmt.Scanf("%d %d", &a, &b)
+	fmt.Scanf("%d\n%d", &a, &b)
 	// fmt.Println("The sum of", a, "and", b, "is", sum(a, b))
 	sum(a, b)
 }
