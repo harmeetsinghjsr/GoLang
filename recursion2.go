@@ -11,5 +11,8 @@ func factorial_recursion(x float64) (y float64) {
 }
 
 func main() {
-  fmt.Println(factorial_recursion(4))
+  fmt.Print("Enter a number: ")
+  var n float64
+  fmt.Scan(&n)
+  fmt.Println("Factorial of",n,"is",factorial_recursion(n))
 }
