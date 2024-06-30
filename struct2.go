@@ -1,10 +1,19 @@
 package main
 
+import "fmt"
+
 type Person struct {
 	name   string
 	age    int
 	job    string
 	salary int
+}
+
+func printPerson(p Person) {
+	fmt.Println("Name:", p.name)
+	fmt.Println("Age:", p.age)
+	fmt.Println("Job:", p.job)
+	fmt.Println("Salary:", p.salary)
 }
 
 func main() {
