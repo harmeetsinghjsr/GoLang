@@ -2,7 +2,7 @@ package main
 import "fmt"
 
 func main(){
-	var m map[string]int
+	var m = make(map[string]int) // Initialize the map
 	m["a"]=1
 	m["e"]=2
 	m["i"]=3
