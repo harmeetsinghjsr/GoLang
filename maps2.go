@@ -8,6 +8,6 @@ func main(){
 	m["D"]="Dog"
 	for key, value := range m {
 		fmt.Println(key, value)
-		// fmt.Println(m)
 	}
+	// fmt.Println(m)
 }
